@@ -54,7 +54,7 @@ body{
 
 .main {
       display: grid;
-      grid-template-columns: repeat( auto-fit, minmax(230px,1fr));
+      grid-template-columns: repeat( auto-fit, minmax(180px,1fr));
       grid-gap: 00.5vw;
       align-items: center;
 }
@@ -62,19 +62,19 @@ body{
 .post {
       position: relative;
       width: 350px;
-      height: 390px;
+      height: 400px;
       justify-self: center;
       transition: transform 0.5s ease;
       
 }
 
 .post:hover {
-      transform: translateY(-10px);
+      transform: translateY(-25px);
 }
 
 .postImage {
-      width: 295px;
-      height: 410px;
+      width: 270px;
+      height: 380px;
       display: inline-block;
       border-radius: 15px;
       padding: 15px 25px;
@@ -82,14 +82,14 @@ body{
       cursor: pointer;
       margin: 10px 15px;
 }
-/*
+
 .postLink {
       position: absolute;
       background-color: white;
       top: 0;
       bottom: 0px;
-      left: 0px;
-      right: 0;
+      left: 40px;
+      right: 90px;
       visibility: 0;
       opacity: 0;
       font-size: 1.5rem;
@@ -97,7 +97,7 @@ body{
       padding-top: 50%;
       transition: opacity .3s;
 }
-*/
+
 .post:hover .postLink {
       visibility: visible;
       opacity: 0.5;
